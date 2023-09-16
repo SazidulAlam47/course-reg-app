@@ -1,0 +1,31 @@
+.card{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 280px;
+}
+
+.card p{
+    color: #777;
+    font-size: 15px;
+}
+
+.card button{
+    width: 100%;
+    background-color: #2f80ed;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.card button:hover{
+    background-color: #006eff;
+    
+}
+.price-credit{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.icon{
+    margin-right: 10px;
+}
