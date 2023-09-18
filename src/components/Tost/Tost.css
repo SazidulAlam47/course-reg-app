@@ -1,0 +1,19 @@
+.tost{
+    /* display: fixed; */
+    position: fixed;
+    top: 6vh; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0 0 10px #ff0022c7;
+    z-index: 100;
+}
+.tost button{
+    background-color: #ff0022;
+    margin-left: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
