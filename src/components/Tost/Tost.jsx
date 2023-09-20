@@ -5,6 +5,7 @@ const Tost = ({tost, setTost, tostMessage}) => {
         setTost(false);
         if (tostMessage === 'Thanks for your purchase') {
             window.location.reload();
+            localStorage.clear();
         }
     }
     if (tost)

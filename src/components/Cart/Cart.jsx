@@ -1,13 +1,14 @@
 import './Cart.css'
 
-const cart = ({cartList, credit, price, remaining, setTost, setTostMessage}) => {
+const cart = ({ cartList, credit, price, remaining, setTost, setTostMessage }) => {
+    console.log('cartlist', cartList);
 
     const handlePurchase = () => {
         if (cartList.length) {
-            setTost(true); 
+            setTost(true);
             setTostMessage('Thanks for your purchase');
         }
-        else{
+        else {
             setTost(true);
             setTostMessage('Add at least one course');
         }
@@ -18,7 +19,7 @@ const cart = ({cartList, credit, price, remaining, setTost, setTostMessage}) => 
             <h3>Course Name</h3>
             <ol className='line'>
                 {
-                    cartList.map(courseName => <li>{courseName}</li>)
+                    cartList.map((course, idx) => <li key={idx}>{course.name}</li>)
                 }
             </ol>
             <p>Total Credit Hour : {credit}</p>
