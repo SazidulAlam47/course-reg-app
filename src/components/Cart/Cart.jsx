@@ -1,4 +1,5 @@
 import './Cart.css'
+import PropTypes from 'prop-types';
 
 const cart = ({ cartList, credit, price, remaining, setTost, setTostMessage }) => {
     console.log('cartlist', cartList);
@@ -28,5 +29,14 @@ const cart = ({ cartList, credit, price, remaining, setTost, setTostMessage }) =
         </div>
     );
 };
+
+cart.propTypes = {
+    cartList: PropTypes.array.isRequired,
+    credit: PropTypes.number.isRequired,
+    price: PropTypes.number.isRequired,
+    remaining: PropTypes.number.isRequired,
+    setTost: PropTypes.func.isRequired,
+    setTostMessage: PropTypes.func.isRequired,
+}
 
 export default cart;
