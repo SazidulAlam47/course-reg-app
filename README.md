@@ -1,8 +1,9 @@
-# React + Vite
+## Course Registration Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application to streamline course registration and scheduling for university students.
 
-Currently, two official plugins are available:
+**Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Intuitive Course Enrollment:** Users can easily add courses to their registration cart, ensuring that they don't accidentally register for the same course multiple times.
+- **Credit Limit Management:** The application automatically safeguards academic requirements by enforcing a maximum limit of 20 credits per registration period.
+- **Seamless Purchase Process:** Users enjoy a streamlined purchase experience with a simple "Purchase" button to finalize their course selections. 
